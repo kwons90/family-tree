@@ -16,7 +16,7 @@ describe('Family Tree', () => {
         return new FamilyTree();
       }).toThrow();
     });
-
+    
     test('If given anything thats not a string, the family tree errors.', () => {
       expect(() => {
         // @ts-ignore
